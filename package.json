@@ -1,0 +1,25 @@
+{
+  "name": "quantum-torus-soundscape",
+  "private": true,
+  "version": "1.0.0",
+  "description": "An immersive audio-visual experience designed for deep cognitive entrainment.",
+  "scripts": {
+    "dev": "serve .",
+    "build": "tsc --noEmit",
+    "preview": "serve .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "serve": "^14.2.3",
+    "typescript": "^5.5.3"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
