@@ -2,7 +2,7 @@
 // This component orchestrates the entire application, managing state,
 // controlling the sound engine, and rendering all UI elements.
 
-import React, from 'react';
+import React from 'react';
 import { useState, useRef, useEffect, useCallback } from 'react';
 import { ControlPanel } from './components/ControlPanel.tsx';
 import { Visualization } from './components/Visualization.tsx';
